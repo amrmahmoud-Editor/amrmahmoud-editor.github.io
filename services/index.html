@@ -3,81 +3,117 @@
 <meta name="description" content="مونتاج ريلز احترافي لبراندك مع عمرو محمود: 3 مستويات (أساسي، احترافي، سينمائي)، باقات شهرية، مواعيد تسليم وشروط واضحة.">
 <link rel="canonical" href="https://amrmahmoud-editor.github.io/services/">
 <meta property="og:title" content="مونتاج ريلز احترافي لبراندك – عمرو محمود"><meta property="og:description" content="أسعار وباقات واضحة، تسليم سريع، وشروط مكتوبة بالتفصيل."><meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6efe1;--fg:#2b2116;--mut:#7a6a55;--gold:#b8760a;--gold2:#e6b54a;--card:rgba(255,255,255,.55);--line:rgba(184,118,10,.25)}
-@media (prefers-color-scheme:dark){:root{--bg:#17120c;--fg:#f3e9d6;--mut:#b9a98f;--card:rgba(255,255,255,.05);--line:rgba(230,181,74,.25)}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:'IBM Plex Sans Arabic',system-ui,sans-serif;line-height:1.7}
+:root{--bg:#0e0a06;--bg2:#17110a;--fg:#f6ecd9;--mut:#b9a98f;--gold:#f0b232;--gold2:#ffd76a;--orange:#ff8a1f;--card:rgba(255,255,255,.045);--line:rgba(240,178,50,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 700px at 80% -10%,rgba(255,138,31,.16),transparent 60%),radial-gradient(900px 600px at -10% 30%,rgba(240,178,50,.10),transparent 60%),var(--bg);color:var(--fg);font-family:'IBM Plex Sans Arabic',system-ui,sans-serif;line-height:1.75;overflow-x:hidden}
 a{color:inherit}.w{max-width:1100px;margin:auto;padding:0 16px}
-nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 75%,transparent);border-bottom:1px solid var(--line)}
-nav .w{display:flex;gap:18px;align-items:center;height:60px}nav b{color:var(--gold);font-size:18px;margin-inline-end:auto}nav a{text-decoration:none;font-size:15px;color:var(--mut)}nav a:hover{color:var(--gold)}
-.hero{padding:64px 16px 24px;text-align:center}
-.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.25;margin:0 0 12px}.hero h1 span{background:linear-gradient(90deg,var(--gold),var(--gold2));-webkit-background-clip:text;color:transparent}
-.hero p{color:var(--mut);font-size:18px;margin:0 auto 22px;max-width:680px}
-.btn{display:inline-block;padding:13px 26px;border-radius:14px;font-weight:700;text-decoration:none;margin:4px;position:relative;overflow:hidden}
-.b1{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1b1206;box-shadow:0 8px 24px rgba(184,118,10,.35)}
-.b2{border:1px solid var(--line);background:var(--card)}
-h2{font-size:28px;margin:56px 0 6px}.sub{color:var(--mut);margin:0 0 22px}
-.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
-.t{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;position:relative;backdrop-filter:blur(8px)}
-.t.hot{border:2px solid var(--gold);box-shadow:0 16px 40px rgba(184,118,10,.22)}
-.badge{position:absolute;top:-13px;right:20px;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1b1206;font-weight:700;font-size:13px;border-radius:999px;padding:2px 14px}
-.t h3{margin:0;font-size:22px}.price{font-size:34px;font-weight:700;color:var(--gold);margin:6px 0 2px}.price small{font-size:15px;color:var(--mut);font-weight:400}
-.meta{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}.meta span{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--mut)}
-.t ul{list-style:none;padding:0;margin:0}.t li{padding:6px 0;border-bottom:1px dashed var(--line);font-size:15px}.t li:last-child{border:0}
-.t li.no{color:var(--mut);opacity:.55;text-decoration:line-through}
-table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
-th,td{padding:14px;text-align:center;border-bottom:1px solid var(--line)}th{color:var(--gold)}td:first-child,th:first-child{text-align:right}
-.tw{overflow-x:auto}
+.en{font-family:'Poppins',sans-serif;font-weight:600;letter-spacing:.2px;color:#ffe2a8;direction:ltr;unicode-bidi:isolate;display:inline-block;position:relative;padding:0 2px}
+.en::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:7px;border-radius:6px;background:radial-gradient(closest-side,rgba(255,138,31,.75),transparent);filter:blur(3px);z-index:-1}
+/* bg motion */
+.orb{position:fixed;border-radius:50%;filter:blur(70px);opacity:.35;z-index:-1;animation:float 14s ease-in-out infinite}
+.o1{width:380px;height:380px;background:#ff8a1f;top:10%;right:-120px}.o2{width:300px;height:300px;background:#f0b232;bottom:5%;left:-100px;animation-delay:-7s}
+@keyframes float{50%{transform:translate(-40px,40px) scale(1.1)}}
+.strip{position:fixed;inset:auto 0 0 0;height:4px;background:repeating-linear-gradient(90deg,var(--gold) 0 30px,transparent 30px 44px);opacity:.35;animation:run 3s linear infinite;z-index:3}
+@keyframes run{to{background-position:44px 0}}
+nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px);background:rgba(14,10,6,.7);border-bottom:1px solid var(--line)}
+nav .w{display:flex;gap:18px;align-items:center;height:60px}nav b{color:var(--gold);font-size:18px;margin-inline-end:auto}
+nav a{text-decoration:none;font-size:15px;color:var(--mut);position:relative;transition:.25s}nav a:not(b a)::after{content:"";position:absolute;bottom:-4px;right:0;width:0;height:2px;background:linear-gradient(90deg,var(--orange),var(--gold2));transition:.3s}nav a:hover{color:var(--gold2)}nav a:hover::after{width:100%}
+.hero{padding:80px 16px 30px;text-align:center;perspective:900px}
+.h3d{font-size:clamp(32px,6vw,62px);line-height:1.25;margin:0 0 30px;color:#fff3dc;display:inline-block;transform:rotateX(14deg);animation:hover3d 6s ease-in-out infinite;
+text-shadow:0 1px 0 #e9b64a,0 2px 0 #d9a03a,0 3px 0 #c58a2c,0 4px 0 #ad7420,0 5px 0 #925d16,0 6px 1px rgba(0,0,0,.5),0 12px 18px rgba(0,0,0,.55),0 22px 40px rgba(0,0,0,.4);position:relative}
+.h3d span{color:#ffd76a}
+.h3d::after{content:"";position:absolute;left:10%;right:10%;bottom:-34px;height:26px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,120,30,.55),rgba(140,70,255,.25),transparent);filter:blur(10px);animation:shadow 6s ease-in-out infinite}
+@keyframes hover3d{50%{transform:rotateX(14deg) translateY(-10px)}}@keyframes shadow{50%{transform:scale(.85);opacity:.7}}
+.hero p{color:var(--mut);font-size:18px;margin:0 auto 26px;max-width:700px}
+.btn{display:inline-block;padding:14px 30px;border-radius:14px;font-weight:700;text-decoration:none;margin:6px;position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.b1{background:linear-gradient(135deg,#ffd76a,#f0a020 45%,#ff7a12);color:#1b0f02;box-shadow:0 10px 28px rgba(255,138,31,.45),inset 0 1px 0 rgba(255,255,255,.6)}
+.b1:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 16px 40px rgba(255,138,31,.7),0 0 0 4px rgba(255,180,60,.15),inset 0 1px 0 rgba(255,255,255,.7)}
+.b2{border:1px solid var(--line);background:var(--card);color:var(--fg)}.b2:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 10px 30px rgba(240,178,50,.25)}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-130%);transition:.8s}.btn:hover::after{transform:translateX(130%)}
+.b1{animation:pulse 2.8s ease-in-out infinite}@keyframes pulse{50%{box-shadow:0 10px 36px rgba(255,138,31,.7),inset 0 1px 0 rgba(255,255,255,.6)}}
+h2{font-size:30px;margin:64px 0 6px}h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;background:linear-gradient(135deg,var(--gold2),var(--orange));margin-inline-end:10px;box-shadow:0 0 14px var(--orange)}
+.sub{color:var(--mut);margin:0 0 24px}
+/* spotlight cards */
+.glow{position:relative;background:var(--card);border:1px solid var(--line);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s;backdrop-filter:blur(8px)}
+.glow::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(260px circle at var(--mx,50%) var(--my,50%),rgba(255,160,50,.20),transparent 60%);opacity:0;transition:opacity .3s}
+.glow:hover::before{opacity:1}.glow:hover{border-color:rgba(255,170,60,.65);box-shadow:0 18px 50px rgba(255,138,31,.22)}
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;perspective:1000px}
+.t{border-radius:22px;padding:26px;transform-style:preserve-3d}
+.t:hover{transform:translateY(-8px)}
+.t.hot{border:2px solid var(--gold);box-shadow:0 16px 46px rgba(255,138,31,.25)}
+.badge{position:absolute;top:-14px;right:20px;background:linear-gradient(135deg,#ffd76a,#ff8a1f);color:#1b0f02;font-weight:700;font-size:13px;border-radius:999px;padding:3px 14px;box-shadow:0 6px 18px rgba(255,138,31,.5)}
+.t h3{margin:0;font-size:23px}.price{font-size:38px;font-weight:700;margin:6px 0 2px;background:linear-gradient(90deg,#ffd76a,#ff8a1f);-webkit-background-clip:text;color:transparent}.price small{font-size:15px;color:var(--mut);-webkit-text-fill-color:var(--mut);font-weight:400}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}.meta span{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--mut);transition:.25s}.t:hover .meta span{border-color:rgba(255,170,60,.5);color:var(--fg)}
+.t ul{list-style:none;padding:0;margin:0}.t li{padding:7px 0;border-bottom:1px dashed var(--line);font-size:15px;transition:transform .25s,color .25s}
+.t li:hover{transform:translateX(-6px);color:var(--gold2)}.t li::before{content:"✦";color:var(--orange);margin-inline-end:8px;font-size:12px}
+.t li.no{color:var(--mut);opacity:.45;text-decoration:line-through}.t li.no::before{content:"–";color:var(--mut)}
+.tw{overflow-x:auto;border-radius:18px}
+table{width:100%;border-collapse:collapse;border-radius:18px;overflow:hidden}
+th,td{padding:15px;text-align:center;border-bottom:1px solid var(--line);transition:background .25s}th{color:var(--gold2)}td:first-child,th:first-child{text-align:right}
+tr:hover td{background:rgba(255,138,31,.08)}td{font-weight:600}
 .terms{counter-reset:n;display:grid;gap:12px;padding:0;list-style:none}
-.terms li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px 14px 16px;position:relative;padding-inline-start:54px}
-.terms li::before{counter-increment:n;content:counter(n);position:absolute;inset-inline-start:14px;top:14px;width:28px;height:28px;border-radius:8px;background:var(--gold);color:#1b1206;font-weight:700;display:grid;place-items:center}
-.terms b{color:var(--gold)}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
-.steps div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}.steps b{display:block;color:var(--gold);font-size:20px}
-.cta{text-align:center;margin:60px 0;padding:36px 16px;border:1px solid var(--line);border-radius:22px;background:var(--card)}
-footer{text-align:center;color:var(--mut);font-size:14px;padding:30px 0 40px}
+.terms li{border-radius:14px;padding:14px 16px;padding-inline-start:56px}
+.terms li:hover{transform:translateX(-6px)}
+.terms li::after{counter-increment:n;content:counter(n);position:absolute;inset-inline-start:14px;top:14px;width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#ffd76a,#ff8a1f);color:#1b0f02;font-weight:700;display:grid;place-items:center;box-shadow:0 0 14px rgba(255,138,31,.45)}
+.terms b{color:var(--gold2)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.steps div{border-radius:16px;padding:18px}.steps div:hover{transform:translateY(-6px)}
+.steps b{display:block;font-family:Poppins;font-size:30px;background:linear-gradient(90deg,#ffd76a,#ff8a1f);-webkit-background-clip:text;color:transparent}
+.cta{text-align:center;margin:70px 0;padding:42px 16px;border-radius:24px}
+footer{text-align:center;color:var(--mut);font-size:14px;padding:30px 0 50px}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+@media (max-width:600px){nav a:not(b a){display:none}nav a[href="#tiers"]{display:inline}.hero{padding-top:56px}}
 </style></head><body>
 <nav><div class="w"><b><a href="/" style="text-decoration:none">عمرو محمود</a></b><a href="#tiers">الأسعار</a><a href="#packages">الباقات</a><a href="#terms">الشروط</a><a href="/course/">الكورس المجاني</a></div></nav>
-<header class="w hero"><h1>مونتاج ريلز <span>احترافي لبراندك</span></h1>
-<p>خبرة +7 سنين في المونتاج والموشن والذكاء الاصطناعي. أسعار واضحة، تسليم في ميعاده، وكل التفاصيل مكتوبة من الأول عشان مايبقاش فيه أي خلاف.</p>
+<div class="orb o1"></div><div class="orb o2"></div><div class="strip"></div>
+<header class="w hero"><h1 class="h3d">مونتاج ريلز <span>احترافي لبراندك</span></h1>
+<p>خبرة +7 سنين في <span class="en">Editing</span> و<span class="en">Motion</span> و<span class="en">AI</span>. أسعار واضحة، تسليم في ميعاده، وكل التفاصيل مكتوبة من الأول عشان مايبقاش فيه أي خلاف.</p>
 <a class="btn b1" href="https://wa.me/201099117676?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A7%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AC%20%D8%B1%D9%8A%D9%84%D8%B2" target="_blank" rel="noopener">احجز على واتساب</a><a class="btn b2" href="#tiers">شوف الأسعار</a></header>
 <main class="w">
 <section id="tiers"><h2>أنواع المونتاج</h2><p class="sub">السعر للريل الواحد. اختار المستوى اللي يناسب براندك.</p>
 <div class="tiers">
-<div class="t"><h3>أساسي</h3><div class="price">400 <small>جنيه / ريل</small></div>
+<div class="t glow rv"><h3>أساسي</h3><div class="price">400 <small>جنيه / ريل</small></div>
 <div class="meta"><span>15–60 ثانية</span><span>تسليم 48 ساعة</span><span>تعديلين مجانًا</span></div>
-<ul><li>قص الأخطاء والسكتات</li><li>ترجمة مكتوبة على الفيديو بالعامية</li><li>مزيكا مناسبة</li><li>تصحيح ألوان أساسي</li><li class="no">هوك أول 3 ثواني</li><li class="no">لقطات مساعدة وانتقالات</li><li class="no">موشن جرافيك</li><li class="no">صورة غلاف</li></ul></div>
-<div class="t hot"><span class="badge">الأكثر طلبًا</span><h3>احترافي</h3><div class="price">800 <small>جنيه / ريل</small></div>
+<ul><li>قص الأخطاء والسكتات</li><li><span class="en">Captions</span> بالعامية على الفيديو</li><li>مزيكا مناسبة</li><li><span class="en">Color Correction</span> أساسي</li><li class="no"><span class="en">Hook</span> أول 3 ثواني</li><li class="no"><span class="en">B-roll</span> و<span class="en">Transitions</span></li><li class="no"><span class="en">Motion Graphics</span></li><li class="no"><span class="en">Thumbnail</span></li></ul></div>
+<div class="t hot glow rv"><span class="badge">الأكثر طلبًا</span><h3>احترافي</h3><div class="price">800 <small>جنيه / ريل</small></div>
 <div class="meta"><span>15–90 ثانية</span><span>تسليم 3 أيام</span><span>3 تعديلات مجانًا</span></div>
-<ul><li>كل اللي في الأساسي</li><li>ترجمة متحركة</li><li>مزيكا ومؤثرات صوتية</li><li>تلوين احترافي</li><li>هوك أول 3 ثواني يشد المشاهد</li><li>لقطات مساعدة (B-roll) وانتقالات</li><li>موشن جرافيك ونصوص بسيطة</li><li>صورة غلاف للريل</li></ul></div>
-<div class="t"><h3>سينمائي</h3><div class="price">من 1,200 <small>جنيه / ريل</small></div>
+<ul><li>كل اللي في الأساسي</li><li><span class="en">Animated Captions</span></li><li>مزيكا و<span class="en">Sound Effects</span></li><li><span class="en">Color Grading</span> احترافي</li><li><span class="en">Hook</span> أول 3 ثواني يشد المشاهد</li><li><span class="en">B-roll</span> و<span class="en">Transitions</span></li><li><span class="en">Motion Graphics</span> بسيط</li><li><span class="en">Thumbnail</span> للريل</li></ul></div>
+<div class="t glow rv"><h3>سينمائي</h3><div class="price">من 1,200 <small>جنيه / ريل</small></div>
 <div class="meta"><span>15–120 ثانية</span><span>تسليم 4–5 أيام</span><span>3 تعديلات مجانًا</span></div>
-<ul><li>كل اللي في الاحترافي</li><li>ترجمة متحركة بستايل خاص بالبراند</li><li>تصميم صوت كامل</li><li>تلوين سينمائي</li><li>موشن جرافيك كامل</li><li>مشاهد ومؤثرات بالذكاء الاصطناعي</li><li>مناسب للإعلانات وإطلاق المنتجات</li></ul></div>
+<ul><li>كل اللي في الاحترافي</li><li><span class="en">Animated Captions</span> بستايل البراند</li><li><span class="en">Sound Design</span> كامل</li><li><span class="en">Cinematic Color Grading</span></li><li><span class="en">Motion Graphics</span> كامل</li><li>مشاهد و<span class="en">VFX</span> بالـ <span class="en">AI</span></li><li>مناسب للإعلانات وإطلاق المنتجات</li></ul></div>
 </div></section>
 <section id="packages"><h2>الباقات الشهرية</h2><p class="sub">لو بتنزل محتوى بانتظام، الباقة بتوفرلك.</p>
-<div class="tw"><table><tr><th>عدد الريلز في الشهر</th><th>أساسي</th><th>احترافي</th><th>سينمائي</th></tr>
+<div class="tw glow rv"><table><tr><th>عدد الريلز في الشهر</th><th>أساسي</th><th>احترافي</th><th>سينمائي</th></tr>
 <tr><td>10 ريلز</td><td>3,500 جنيه</td><td>7,000 جنيه</td><td>10,000 جنيه</td></tr>
 <tr><td>20 ريل</td><td>6,000 جنيه</td><td>12,000 جنيه</td><td>بالاتفاق</td></tr></table></div></section>
 <section><h2>إزاي بنشتغل</h2><div class="steps">
-<div><b>1</b>تكلمني على واتساب وتقولي نوع المحتوى والمستوى</div>
-<div><b>2</b>تدفع 50% مقدم وتبعت المتريال كامل</div>
-<div><b>3</b>أسلمك الريل في الميعاد، وتطلب تعديلاتك</div>
-<div><b>4</b>تدفع الباقي وتستلم الملف النهائي بدون علامة مائية</div></div></section>
+<div class="glow rv"><b>1</b>تكلمني على واتساب وتقولي نوع المحتوى والمستوى</div>
+<div class="glow rv"><b>2</b>تدفع 50% مقدم وتبعت المتريال كامل</div>
+<div class="glow rv"><b>3</b>أسلمك الريل في الميعاد، وتطلب تعديلاتك</div>
+<div class="glow rv"><b>4</b>تدفع الباقي وتستلم الملف النهائي بدون <span class="en">Watermark</span></div></div></section>
 <section id="terms"><h2>شروط الاتفاق</h2><p class="sub">مكتوبة بالتفصيل عشان نبقى متفقين من الأول.</p>
 <ol class="terms">
-<li><b>مدة التسليم</b> بتبدأ من وصول المتريال كامل: الفيديوهات والشعار والنص والمعلومات. لو حاجة ناقصة، المدة مابتبدأش.</li>
-<li><b>التعديل</b> يعني تغيير في نفس الريل: نص، توقيت، مزيكا، أو لون. فكرة جديدة أو متريال جديد = ريل جديد.</li>
-<li><b>التعديل الزيادة</b> بعد المجاني: 100 جنيه في الأساسي، و150 جنيه في الاحترافي والسينمائي.</li>
-<li><b>الدفع:</b> 50% مقدم قبل البدء، و50% قبل استلام الملف النهائي. الباقات الشهرية بتتدفع مقدم بالكامل.</li>
-<li><b>التسليم المستعجل</b> في نص المدة، بزيادة 50% على السعر.</li>
-<li><b>المزيكا</b> مرخصة وخالية من حقوق الملكية. لو العميل بعت مزيكا خاصة، تبقى على مسؤوليته.</li>
-<li><b>الملف المفتوح</b> (مشروع بريمير) مش داخل في السعر، وبيتباع لوحده لو مطلوب.</li>
-<li><b>باقات الشهر:</b> الريلز اللي ماتستخدمتش مابتترحّلش للشهر اللي بعده.</li>
-<li><b>البورتفوليو:</b> من حقنا نعرض الشغل في البورتفوليو، إلا لو العميل طلب غير كده.</li>
+<li class="glow rv"><b>مدة التسليم</b> بتبدأ من وصول المتريال كامل: الفيديوهات والشعار والنص والمعلومات. لو حاجة ناقصة، المدة مابتبدأش.</li>
+<li class="glow rv"><b>التعديل</b> يعني تغيير في نفس الريل: نص، توقيت، مزيكا، أو لون. فكرة جديدة أو متريال جديد = ريل جديد.</li>
+<li class="glow rv"><b>التعديل الزيادة</b> بعد المجاني: 100 جنيه في الأساسي، و150 جنيه في الاحترافي والسينمائي.</li>
+<li class="glow rv"><b>الدفع:</b> 50% مقدم قبل البدء، و50% قبل استلام الملف النهائي. الباقات الشهرية بتتدفع مقدم بالكامل.</li>
+<li class="glow rv"><b>التسليم المستعجل</b> في نص المدة، بزيادة 50% على السعر.</li>
+<li class="glow rv"><b>المزيكا</b> مرخصة وخالية من حقوق الملكية. لو العميل بعت مزيكا خاصة، تبقى على مسؤوليته.</li>
+<li class="glow rv"><b>الملف المفتوح</b> (<span class="en">Premiere Project</span>) مش داخل في السعر، وبيتباع لوحده لو مطلوب.</li>
+<li class="glow rv"><b>باقات الشهر:</b> الريلز اللي ماتستخدمتش مابتترحّلش للشهر اللي بعده.</li>
+<li class="glow rv"><b>البورتفوليو:</b> من حقنا نعرض الشغل في البورتفوليو، إلا لو العميل طلب غير كده.</li>
 </ol></section>
-<div class="cta"><h2 style="margin-top:0">جاهز تبدأ؟</h2><p class="sub">ابعتلي رسالة واحجز مكانك. بنقبل عدد محدود من العملاء كل شهر عشان الجودة.</p>
+<div class="cta glow rv"><h2 style="margin-top:0">جاهز تبدأ؟</h2><p class="sub">ابعتلي رسالة واحجز مكانك. بنقبل عدد محدود من العملاء كل شهر عشان الجودة.</p>
 <a class="btn b1" href="https://wa.me/201099117676?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A7%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AC%20%D8%B1%D9%8A%D9%84%D8%B2" target="_blank" rel="noopener">احجز على واتساب</a></div>
 </main>
 <footer>© 2026 عمرو محمود · <a href="/">الرئيسية</a> · <a href="/course/">الكورس المجاني</a></footer>
-</body></html>
+<script>
+document.querySelectorAll('.glow').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px');
+if(el.classList.contains('t')){const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform=`translateY(-8px) rotateX(${-y*6}deg) rotateY(${x*6}deg)`}});
+el.addEventListener('pointerleave',()=>{el.style.transform=''})});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);setTimeout(()=>x.target.style.transitionDelay='0ms',1200)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+</script></body></html>
